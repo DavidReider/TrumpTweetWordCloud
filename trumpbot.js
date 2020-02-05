@@ -6,7 +6,7 @@ console.log('The bot is starting'); //just some output to see that the code has 
 
 var Twit = require('twit'); // twit is from TwitterOAuth, it begins the requests from twitter api using the keys below
 
-var config = require('./config');
+var config = require('./config'); // config holds Twitter API Tokens
 var T = new Twit(config);
 const fs = require('fs');
 

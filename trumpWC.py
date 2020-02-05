@@ -35,6 +35,6 @@ def create_wordCloud(text):
 
 # Output.txt is a file that stores the text from Trump's Tweets.
 # Output.txt is generated from a javascript script that calls Twitter API and writes Tweet text to a txt file.
-# The .js script is run with Node.JS as Twitter API requires a server to make calls
+# The .js script is run with Node.JS
 t = open("Output.txt", encoding="utf8").read()
 create_wordCloud(t)
